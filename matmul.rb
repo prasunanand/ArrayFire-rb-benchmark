@@ -1,6 +1,6 @@
 require 'java'
 java_import 'java.util.Random'
-require_relative './ext2/ArrayFire.jar'
+require_relative './ext/ArrayFire.jar'
 require 'benchmark'
 
 java_import 'com.arrayfire.Array'
